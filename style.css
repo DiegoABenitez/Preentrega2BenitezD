@@ -1,0 +1,172 @@
+:root {
+    
+
+  background-image: linear-gradient(to right, rgba(192, 87, 234, 0.448), rgba(124, 48, 165, 0.853));
+   
+  }
+  
+  html {
+    background-color: pink;
+  }
+  
+  body {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: var(--negro);
+    background-color: var(--primario);
+    
+  }
+
+  h1 {
+    margin-top: 2rem;
+    font-size: 40px;
+    font-family: cursive;
+    
+  }
+  
+  h2 {
+    font-size: 2.8rem;
+    color: var(--secundario);
+  }
+  
+  h3 {
+    font-size: 2.8rem;
+  }
+  
+  h2 {
+    text-align:left;
+    color: antiquewhite;
+    text-decoration: none;
+  }
+  
+  h3 {
+    text-align:left;
+    
+  }
+  
+  
+  .header {
+    display:grid;
+    position:auto;
+    margin-top: 10px;
+    color: rgb(160, 36, 191);
+    font-weight: solid;
+    font: size 4rem;
+    padding-bottom: 10px;
+    background-image: url(sunset.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:sticky;
+    height:200px;
+    color: rgb(255, 0, 225);
+    animation-name: example;
+    animation-delay: 1s;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {color: rgb(255, 0, 247) ;}
+    to {color: rgb(224, 98, 165);}
+    to {color: rgb(234, 171, 230);}
+    to {color: rgb(224, 197, 98);}
+    to {color: rgb(251, 248, 241);}
+  }
+  
+
+
+  .navbar-nav{
+    display:row;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: "Times New Roman", Times, serif;
+    background-color:pink;
+    padding: right 5px;
+  }
+
+  .navbar-nav a:hover {
+    background-color: rgb(131, 87, 173);
+    border-radius: 45%;
+    text-decoration-color: var(antiquewhite);
+    transition: background-color 0.5s;
+    background-size: 200px;
+  }
+
+
+  .main {
+    
+    background-image: linear-gradient(to right, rgba(255, 136, 0, 0), rgb(248, 134, 3));
+    margin-top: 15px;
+  
+  }
+
+  
+  .footer {
+    display: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+   
+  }
+  
+  .footer .redes{
+    text-align: center;
+
+  }
+
+  .footer .redes p {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(132, 194, 162);
+    margin-bottom: 15px;
+  }
+  
+  .footer .redes a {
+    text-decoration: none;
+    
+   
+  }
+  
+  .footer .texto {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+     
+  .imagenes {
+    background-image: url(angel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:sticky;
+    height:600px;
+  
+  }
+  
+  
+  .boton2 {
+    background-color: lightsalmon;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5rem;
+    width: 75%;
+    text-align: center;
+    border: none;
+  }
+  
+  .boton2:hover {
+    cursor: pointer;
+   
+  }
+  .servicios {
+    display: flexbox;
+    height: auto;
+  }
+  .servicios .li {
+  font-size: 35px;  
+  text-decoration: line-through;
+    
+  }
